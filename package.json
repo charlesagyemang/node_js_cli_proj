@@ -1,0 +1,22 @@
+{
+  "name": "hello-cli",
+  "version": "1.0.0",
+  "description": "Hello cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "charles",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "yargs": "^13.2.4"
+  },
+  "bin": {
+    "hello": "index.js"
+  }
+}
